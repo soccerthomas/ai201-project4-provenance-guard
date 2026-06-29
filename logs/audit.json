@@ -7,5 +7,44 @@
         "confidence": 0.8,
         "attribution": "likely_ai",
         "status": "classified"
+    },
+    {
+        "content_id": "9f33e929-20b9-4a84-9380-03a9291b1469",
+        "creator_id": "test-user-1",
+        "timestamp": "2026-06-29T06:20:46.385061Z",
+        "llm_score": 0.8,
+        "heuristic_score": 0.5575,
+        "confidence": 0.703,
+        "attribution": "likely_ai",
+        "status": "pending_review",
+        "appeal_reason": "This was written by me and I can provide a draft history."
+    },
+    {
+        "content_id": "ff22b4fa-8930-4bda-86d2-7852b378613f",
+        "creator_id": "test-user-2",
+        "timestamp": "2026-06-29T06:20:47.507500Z",
+        "llm_score": 0.21,
+        "heuristic_score": 0.3795,
+        "confidence": 0.2778,
+        "attribution": "likely_human",
+        "status": "classified"
+    },
+    {
+        "content_id": "223e29ba-50e2-453e-9f9c-28b98338077f",
+        "creator_id": "test-user-3",
+        "timestamp": "2026-06-29T06:21:30.550040Z",
+        "llm_score": 0.4,
+        "heuristic_score": 0.4415,
+        "confidence": 0.4166,
+        "attribution": "uncertain",
+        "status": "classified"
+    },
+    {
+        "content_id": "9f33e929-20b9-4a84-9380-03a9291b1469",
+        "creator_id": "test-user-1",
+        "timestamp": "2026-06-29T06:21:34.709951Z",
+        "event": "appeal_submitted",
+        "appeal_reason": "This was written by me and I can provide a draft history.",
+        "status": "pending_review"
     }
 ]
